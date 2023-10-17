@@ -5,7 +5,9 @@ function getHole( index ) {
   
   let dead = 0;
   let lost = 0;
-  
+//   let dead = document.getElementById('dead').textContent;
+//   let lost = document.getElementById('dead').textContent;
+    
   // Обработчик события клика на лунку
   function handleClick(event) {
     const hole = event.target;
